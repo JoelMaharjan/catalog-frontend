@@ -1,0 +1,20 @@
+.banner {
+  display: flex;
+  padding: 80px 0px;
+  justify-content: center;
+  align-items: center;
+  background: $secondary-color;
+
+  & .banner-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+
+    & .banner-items {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}

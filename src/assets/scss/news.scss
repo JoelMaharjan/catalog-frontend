@@ -1,0 +1,97 @@
+.news {
+  display: flex;
+  padding: 80px 0px;
+  justify-content: center;
+  align-items: center;
+
+  & .news-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    & .news-heading {
+      color: $black-color;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+
+    & .news-subheading {
+      color: #505258;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px; /* 150% */
+      width: 613.671px;
+    }
+
+    & .news-items {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 19px;
+
+      & .news-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 19px;
+        
+        & .card-container{
+            padding: 20px 22px;
+        }
+      }
+      
+      & .news-card {
+        width: 357px;
+        height: 470px;
+        border-radius: 20px;
+        background: $secondary-color;
+
+        & img {
+          width: 315px;
+          height: 201px;
+          border-radius: 16px;
+          object-fit: cover;
+        }
+
+        & .card-heading {
+          width: 315px;
+          height: 72px;
+          color: $black-color;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 36px;
+          margin-top: 24px;
+        }
+        & .card-text {
+          width: 315px;
+          height: 81px;
+          color: #505258;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          margin-top: 10px;
+        }
+        & a {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          color: $primary-color;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          gap: 5px;
+          margin-top: 17px;
+        }
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,89 @@
+.resources {
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $secondary-color;
+  & .resources-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    & .resources-heading {
+      color: $black-color;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+    & .sub-text {
+      color: #7c7d82;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+      width: 498px;
+    }
+    & .resources-items {
+      display: flex;
+      align-items: flex-start;
+      gap: 26px;
+
+      & .resources-card {
+        width: 352.913px;
+        height: 337.45px;
+        border-radius: 22px;
+        background: #fff;
+
+        & .card-container {
+          padding: 36px 28px;
+
+          & .image-placeholder {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 111px;
+            height: 65.585px;
+
+            & .image-container {
+              padding: 18px;
+              background: #f8f1ff;
+              border-radius: 19px;
+            }
+          }
+          & .card-title {
+            margin: 22px 0 8px 0;
+            color: $black-color;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 36px;
+            width: 294.701px;
+          }
+          & .card-description {
+            color: #7c7d82;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+          & a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: $primary-color;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            margin-top: 51px;
+          }
+        }
+      }
+    }
+  }
+}

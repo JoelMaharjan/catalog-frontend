@@ -1,0 +1,33 @@
+.contact-us {
+  display: flex;
+  padding: 80px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1067px;
+    gap: 32px;
+
+    & .contact-heading {
+      color: $black-color;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+    & .sub-text {
+      color: #7c7d82;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+      width: 498px;
+    }
+  }
+}

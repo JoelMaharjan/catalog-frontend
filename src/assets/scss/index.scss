@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+
+.container {
+  padding: 0px 160px;
+}
+
+li {
+  list-style: none;
+}
+
+
+@import "./variables/variable.scss";
+@import "./herosection.scss";
+@import "./navbar.scss";
+@import "dropdown.scss";
+@import "navbaritems.scss";
+@import "searchbar.scss";
+@import "campaign.scss";
+@import "card.scss";
+@import "about.scss";
+@import "banner.scss";
+@import "news.scss";
+@import "resources.scss";
+@import "contactus.scss";
+@import "form.scss";
+@import "footer.scss";
+@import "copyright.scss";
+@import "button.scss";
+@import "modal.scss";
